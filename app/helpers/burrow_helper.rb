@@ -1,0 +1,2 @@
+module BurrowHelper
+end

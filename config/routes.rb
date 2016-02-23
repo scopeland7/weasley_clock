@@ -1,4 +1,12 @@
 Rails.application.routes.draw do
+  get 'burrow/index'
+
+  get 'burrow/members'
+
+  get 'burrow/places'
+
+  get 'burrow/time'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
