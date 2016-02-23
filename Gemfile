@@ -23,6 +23,13 @@ gem 'coffee-rails', '~> 4.1.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 
+# Obtain location data for users
+gem 'gmaps4rails'
+gem 'geocoder'
+
+#Keep API key secret secrets
+gem 'figaro'
+
 # Turbolinks isn't here because fuck Turbolinks
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
