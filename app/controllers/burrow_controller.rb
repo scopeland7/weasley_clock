@@ -1,5 +1,6 @@
 class BurrowController < ApplicationController
   def index
+  	@result = request.location
   end
 
   def members
