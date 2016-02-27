@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#Allows use of binary files in geocoding
+gem 'geoip'
+
 gem 'httparty'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5'

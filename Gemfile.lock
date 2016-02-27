@@ -67,6 +67,7 @@ GEM
     font-awesome-rails (4.5.0.0)
       railties (>= 3.2, < 5.0)
     geocoder (1.2.14)
+    geoip (1.6.1)
     globalid (0.3.6)
       activesupport (>= 4.1.0)
     gmaps4rails (2.1.2)
@@ -179,6 +180,7 @@ DEPENDENCIES
   figaro
   font-awesome-rails
   geocoder
+  geoip
   gmaps4rails
   httparty
   jbuilder (~> 2.0)
