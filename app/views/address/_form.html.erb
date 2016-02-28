@@ -1,0 +1,19 @@
+<% form_tag do -%>
+	<%= label :address, "street", "Street" -%>
+	<%= street_field :address, "street" %>
+
+	<%= label :address, "locality", "Locality" -%>
+	<%= locality_field :address, "locality" %>
+
+	<%= label :address, "city", "City" -%>
+	<%= city_field :address, "city" %>
+
+	<%= label :address, "state", "State" -%>
+	<%= state_field :address, "state" %>
+
+	<%= label :address, "country", "Country Name" -%>
+	<%= country_name_field :address, "country" %>
+
+	<%= label :address, "zip", "Postal Code" -%>
+	<%= postal_code_field :address, "zip" %>
+<% end %>

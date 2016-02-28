@@ -1,0 +1,1103 @@
+Script started on Sun 28 Feb 2016 05:17:37 PM EST
+]0;scopeland@Laptop: ~/Documents/TTS/rails/weasley_clockscopeland@Laptop:~/Documents/TTS/rails/weasley_clock$ [H[2J]0;scopeland@Laptop: ~/Documents/TTS/rails/weasley_clockscopeland@Laptop:~/Documents/TTS/rails/weasley_clock$ rails s
+=> Booting WEBrick
+=> Rails 4.2.5 application starting in development on http://localhost:3000
+=> Run `rails server -h` for more startup options
+=> Ctrl-C to shutdown server
+[2016-02-28 17:51:13] INFO  WEBrick 1.3.1
+[2016-02-28 17:51:13] INFO  ruby 2.2.1 (2015-02-26) [x86_64-linux]
+[2016-02-28 17:51:13] INFO  WEBrick::HTTPServer#start: pid=5799 port=3000
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-28 17:51:18 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by BurrowController#index as HTML
+  Rendered burrow/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 272ms (ActiveRecord: 0.0ms)
+
+SyntaxError (/home/scopeland/Documents/TTS/rails/weasley_clock/app/views/layouts/application.html.erb:5: syntax error, unexpected '>'
+/home/scopeland/Documents/TTS/rails/weasley_clock/app/views/layouts/application.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+...esheet_link_tag    'application', media: 'all' );@output_buf...
+...                               ^
+/home/scopeland/Documents/TTS/rails/weasley_clock/app/views/layouts/application.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+...g    'application', media: 'all' );@output_buffer.safe_appen...
+...                               ^
+/home/scopeland/Documents/TTS/rails/weasley_clock/app/views/layouts/application.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting ')'
+...script_include_tag 'application' );@output_buffer.safe_appen...
+...                               ^
+/home/scopeland/Documents/TTS/rails/weasley_clock/app/views/layouts/application.html.erb:9: syntax error, unexpected '<', expecting ')'
+</head>
+ ^
+/home/scopeland/Documents/TTS/rails/weasley_clock/app/views/layouts/application.html.erb:14: unknown regexp options - dv
+/home/scopeland/Documents/TTS/rails/weasley_clock/app/views/layouts/application.html.erb:16: syntax error, unexpected '<'
+</body>
+ ^
+/home/scopeland/Documents/TTS/rails/weasley_clock/app/views/layouts/application.html.erb:17: unknown regexp options - htl
+/home/scopeland/Documents/TTS/rails/weasley_clock/app/views/layouts/application.html.erb:18: unterminated string meets end of file
+/home/scopeland/Documents/TTS/rails/weasley_clock/app/views/layouts/application.html.erb:18: syntax error, unexpected end-of-input, expecting ')'):
+  app/views/layouts/application.html.erb:5: syntax error, unexpected '>'
+  app/views/layouts/application.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:7: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/layouts/application.html.erb:9: syntax error, unexpected '<', expecting ')'
+  app/views/layouts/application.html.erb:14: unknown regexp options - dv
+  app/views/layouts/application.html.erb:16: syntax error, unexpected '<'
+  app/views/layouts/application.html.erb:17: unknown regexp options - htl
+  app/views/layouts/application.html.erb:18: unterminated string meets end of file
+  app/views/layouts/application.html.erb:18: syntax error, unexpected end-of-input, expecting ')'
+
+
+  Rendered /home/scopeland/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (16.3ms)
+  Rendered /home/scopeland/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /home/scopeland/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (50.7ms)
+  Rendered /home/scopeland/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (107.1ms)
+  Rendered /home/scopeland/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /home/scopeland/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/scopeland/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/scopeland/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /home/scopeland/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb within layouts/javascript (152.1ms)
+  Rendered /home/scopeland/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/scopeland/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /home/scopeland/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/index.html.erb (232.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-28 17:52:26 -0500
+Processing by BurrowController#index as HTML
+  Rendered burrow/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 4600ms (Views: 4460.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/burrow.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-02-28 17:52:31 -0500
+
+
+Started GET "/assets/application.self-c019329e48c60fd3ec6d97304d86e8da7c09f37ae842c3dda0b1c9b6ec3cc17c.css?body=1" for 127.0.0.1 at 2016-02-28 17:52:31 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:31 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:31 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:31 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:31 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:31 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:31 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:31 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:31 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:31 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:31 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:31 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:31 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:31 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:31 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:31 -0500
+
+
+Started GET "/assets/burrow.self-567311ec89bb3692354d2555db29084f7e1cd862f3f2928e5f369a3858b9a919.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:31 -0500
+
+
+Started GET "/assets/application.self-bfe88fc4e6c26c0741c50bb5d032e7d8bb24ddb4a73e39f6afa4930ab3b14768.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:31 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-28 17:52:36 -0500
+Processing by BurrowController#index as HTML
+  Rendered burrow/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 149ms (Views: 68.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/burrow.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-02-28 17:52:36 -0500
+
+
+Started GET "/assets/application.self-c019329e48c60fd3ec6d97304d86e8da7c09f37ae842c3dda0b1c9b6ec3cc17c.css?body=1" for 127.0.0.1 at 2016-02-28 17:52:36 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:36 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:36 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:36 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:36 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:36 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:36 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:36 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:36 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:36 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:36 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:36 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:36 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:36 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:36 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:36 -0500
+
+
+Started GET "/assets/burrow.self-567311ec89bb3692354d2555db29084f7e1cd862f3f2928e5f369a3858b9a919.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:36 -0500
+
+
+Started GET "/assets/application.self-bfe88fc4e6c26c0741c50bb5d032e7d8bb24ddb4a73e39f6afa4930ab3b14768.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:36 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-28 17:52:37 -0500
+Processing by BurrowController#index as HTML
+  Rendered burrow/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 148ms (Views: 61.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/burrow.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-02-28 17:52:38 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:38 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:38 -0500
+
+
+Started GET "/assets/application.self-c019329e48c60fd3ec6d97304d86e8da7c09f37ae842c3dda0b1c9b6ec3cc17c.css?body=1" for 127.0.0.1 at 2016-02-28 17:52:38 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:38 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:38 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:38 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:38 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:38 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:38 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:38 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:38 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:38 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:38 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:38 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:38 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:38 -0500
+
+
+Started GET "/assets/burrow.self-567311ec89bb3692354d2555db29084f7e1cd862f3f2928e5f369a3858b9a919.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:38 -0500
+
+
+Started GET "/assets/application.self-bfe88fc4e6c26c0741c50bb5d032e7d8bb24ddb4a73e39f6afa4930ab3b14768.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:38 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-28 17:52:39 -0500
+Processing by BurrowController#index as HTML
+  Rendered burrow/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 192ms (Views: 67.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/burrow.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-02-28 17:52:39 -0500
+
+
+Started GET "/assets/application.self-c019329e48c60fd3ec6d97304d86e8da7c09f37ae842c3dda0b1c9b6ec3cc17c.css?body=1" for 127.0.0.1 at 2016-02-28 17:52:39 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:39 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:39 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:39 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:39 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:39 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:39 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:39 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:39 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:39 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:39 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:39 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:39 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:39 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:39 -0500
+
+
+Started GET "/assets/burrow.self-567311ec89bb3692354d2555db29084f7e1cd862f3f2928e5f369a3858b9a919.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:39 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:39 -0500
+
+
+Started GET "/assets/application.self-bfe88fc4e6c26c0741c50bb5d032e7d8bb24ddb4a73e39f6afa4930ab3b14768.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:39 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+Processing by BurrowController#index as HTML
+  Rendered burrow/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 158ms (Views: 65.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/burrow.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/application.self-c019329e48c60fd3ec6d97304d86e8da7c09f37ae842c3dda0b1c9b6ec3cc17c.css?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/burrow.self-567311ec89bb3692354d2555db29084f7e1cd862f3f2928e5f369a3858b9a919.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/application.self-bfe88fc4e6c26c0741c50bb5d032e7d8bb24ddb4a73e39f6afa4930ab3b14768.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-28 17:55:34 -0500
+Processing by BurrowController#index as HTML
+  Rendered burrow/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 647ms (Views: 529.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/burrow.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/application.self-c019329e48c60fd3ec6d97304d86e8da7c09f37ae842c3dda0b1c9b6ec3cc17c.css?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/burrow.self-963c37abc23439eddc9bc1185ebc3f75ac5fce115d14b953463bd8ce2fb04b0f.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/application.self-bfe88fc4e6c26c0741c50bb5d032e7d8bb24ddb4a73e39f6afa4930ab3b14768.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+Processing by BurrowController#index as HTML
+  Rendered burrow/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 200ms (Views: 86.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/burrow.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/application.self-c019329e48c60fd3ec6d97304d86e8da7c09f37ae842c3dda0b1c9b6ec3cc17c.css?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/burrow.self-963c37abc23439eddc9bc1185ebc3f75ac5fce115d14b953463bd8ce2fb04b0f.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/application.self-bfe88fc4e6c26c0741c50bb5d032e7d8bb24ddb4a73e39f6afa4930ab3b14768.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:59 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-28 17:58:52 -0500
+Processing by BurrowController#index as HTML
+  Rendered burrow/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 682ms (Views: 573.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/burrow.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/application.self-c019329e48c60fd3ec6d97304d86e8da7c09f37ae842c3dda0b1c9b6ec3cc17c.css?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/burrow.self-f22e17df2334259def345d71766d7e366415b0b43f65fed7505424f940dabb84.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/application.self-bfe88fc4e6c26c0741c50bb5d032e7d8bb24ddb4a73e39f6afa4930ab3b14768.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-28 18:00:33 -0500
+Processing by BurrowController#index as HTML
+Geocoding API not responding fast enough (use Geocoder.configure(:timeout => ...) to set limit).
+  Rendered burrow/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10218ms (Views: 162.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/burrow.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/application.self-c019329e48c60fd3ec6d97304d86e8da7c09f37ae842c3dda0b1c9b6ec3cc17c.css?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/burrow.self-1a8c3198344f838bbd0be11b8e26ced70a91f5b3ad2ae4205f54d29b0d300a8d.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/application.self-bfe88fc4e6c26c0741c50bb5d032e7d8bb24ddb4a73e39f6afa4930ab3b14768.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+^C[2016-02-28 18:12:08] INFO  going to shutdown ...
+[2016-02-28 18:12:09] INFO  WEBrick::HTTPServer#start done.
+Exiting
+]0;scopeland@Laptop: ~/Documents/TTS/rails/weasley_clockscopeland@Laptop:~/Documents/TTS/rails/weasley_clock$ [H[2J]0;scopeland@Laptop: ~/Documents/TTS/rails/weasley_clockscopeland@Laptop:~/Documents/TTS/rails/weasley_clock$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   app/assets/javascripts/application.js[m
+	[31mdeleted:    app/assets/javascripts/burrow.coffee[m
+	[31mmodified:   app/controllers/burrow_controller.rb[m
+	[31mmodified:   app/views/burrow/index.html.erb[m
+	[31mmodified:   db/schema.rb[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/burrow.self-567311ec89bb3692354d2555db29084f7e1cd862f3f2928e5f369a3858b9a919.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/assets/application.self-bfe88fc4e6c26c0741c50bb5d032e7d8bb24ddb4a73e39f6afa4930ab3b14768.js?body=1" for 127.0.0.1 at 2016-02-28 17:52:40 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-28 17:55:34 -0500
+Processing by BurrowController#index as HTML
+  Rendered burrow/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 647ms (Views: 529.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/burrow.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/application.self-c019329e48c60fd3ec6d97304d86e8da7c09f37ae842c3dda0b1c9b6ec3cc17c.css?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/burrow.self-963c37abc23439eddc9bc1185ebc3f75ac5fce115d14b953463bd8ce2fb04b0f.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/assets/application.self-bfe88fc4e6c26c0741c50bb5d032e7d8bb24ddb4a73e39f6afa4930ab3b14768.js?body=1" for 127.0.0.1 at 2016-02-28 17:55:35 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+Processing by BurrowController#index as HTML
+  Rendered burrow/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 200ms (Views: 86.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/burrow.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/application.self-c019329e48c60fd3ec6d97304d86e8da7c09f37ae842c3dda0b1c9b6ec3cc17c.css?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/burrow.self-963c37abc23439eddc9bc1185ebc3f75ac5fce115d14b953463bd8ce2fb04b0f.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/application.self-bfe88fc4e6c26c0741c50bb5d032e7d8bb24ddb4a73e39f6afa4930ab3b14768.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:59 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-28 17:58:52 -0500
+Processing by BurrowController#index as HTML
+  Rendered burrow/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 682ms (Views: 573.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/burrow.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/application.self-c019329e48c60fd3ec6d97304d86e8da7c09f37ae842c3dda0b1c9b6ec3cc17c.css?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/burrow.self-f22e17df2334259def345d71766d7e366415b0b43f65fed7505424f940dabb84.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/application.self-bfe88fc4e6c26c0741c50bb5d032e7d8bb24ddb4a73e39f6afa4930ab3b14768.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-28 18:00:33 -0500
+Processing by BurrowController#index as HTML
+Geocoding API not responding fast enough (use Geocoder.configure(:timeout => ...) to set limit).
+  Rendered burrow/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10218ms (Views: 162.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/burrow.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/application.self-c019329e48c60fd3ec6d97304d86e8da7c09f37ae842c3dda0b1c9b6ec3cc17c.css?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/burrow.self-1a8c3198344f838bbd0be11b8e26ced70a91f5b3ad2ae4205f54d29b0d300a8d.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/application.self-bfe88fc4e6c26c0741c50bb5d032e7d8bb24ddb4a73e39f6afa4930ab3b14768.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+^C[2016-02-28 18:12:08] INFO  going to shutdown ...
+[2016-02-28 18:12:09] INFO  WEBrick::HTTPServer#start done.
+Exiting
+]0;scopeland@Laptop: ~/Documents/TTS/rails/weasley_clockscopeland@Laptop:~/Documents/TTS/rails/weasley_clock$ [H[2J]0;scopeland@Laptop: ~/Documents/TTS/rails/weasley_clockscopeland@Laptop:~/Documents/TTS/rails/weasley_clock$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mmodified:   app/assets/javascripts/application.js[m
+	[31mdeleted:    app/assets/javascripts/burrow.coffee[m
+	[31mmodified:   app/controllers/burrow_controller.rb[m
+	[31mmodified:   app/views/burrow/index.html.erb[m
+	[31mmodified:   db/schema.rb[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31mapp/assets/javascripts/burrow.js[m
+	[31mapp/models/address.rb[m
+	[31mapp/views/address/[m
+	[31mdb/migrate/20160228220420_create_addresses.rb[m
+	[31minstall[m
+	[31mtest/fixtures/addresses.yml[m
+	[31mtest/models/address_test.rb[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;scopeland@Laptop: ~/Documents/TTS/rails/weasley_clockscopeland@Laptop:~/Documents/TTS/rails/weasley_clock$ git add .
+warning: You ran 'git add' with neither '-A (--all)' or '--ignore-removal',
+whose behaviour will change in Git 2.0 with respect to paths you repse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/burrow.self-963c37abc23439eddc9bc1185ebc3f75ac5fce115d14b953463bd8ce2fb04b0f.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:58 -0500
+
+
+Started GET "/assets/application.self-bfe88fc4e6c26c0741c50bb5d032e7d8bb24ddb4a73e39f6afa4930ab3b14768.js?body=1" for 127.0.0.1 at 2016-02-28 17:56:59 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-28 17:58:52 -0500
+Processing by BurrowController#index as HTML
+  Rendered burrow/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 682ms (Views: 573.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/burrow.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/application.self-c019329e48c60fd3ec6d97304d86e8da7c09f37ae842c3dda0b1c9b6ec3cc17c.css?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap/popover.self-210cff1fb4b72b71a29b5122180cb5937c8145cd13a934dc838280f1d9607a3e.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/bootstrap-sprockets.self-fbfa5ad7d9aa0afe439ec4ff3883acc4cb92b62cb67c40d674320c9aa1d4642d.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/burrow.self-f22e17df2334259def345d71766d7e366415b0b43f65fed7505424f940dabb84.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/assets/application.self-bfe88fc4e6c26c0741c50bb5d032e7d8bb24ddb4a73e39f6afa4930ab3b14768.js?body=1" for 127.0.0.1 at 2016-02-28 17:58:53 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2016-02-28 18:00:33 -0500
+Processing by BurrowController#index as HTML
+Geocoding API not responding fast enough (use Geocoder.configure(:timeout => ...) to set limit).
+  Rendered burrow/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10218ms (Views: 162.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/burrow.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/affix.self-3555752f8a930795ee9e56751a52e6871104ae85d01b3ab8363da3802a5ecc78.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/application.self-c019329e48c60fd3ec6d97304d86e8da7c09f37ae842c3dda0b1c9b6ec3cc17c.css?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/jquery.self-c64a74367bda6ef8b860f19e74df08927ca99d2be2ac934e9e92d5fd361e0da4.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/button.self-e74d33ba39500940a78d6fa4d2d64f6ca7fd86d60a2149641f7fde7ba711d8a1.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/jquery_ujs.self-d602bdfe68ffc63b9f9cc512872aa3cfff046228a0a36e90dd476e8ef54c1b09.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/alert.self-d8b7bd612b3dcfdefb7b5539b9d5848d66ccbd3e7af8bb8d48bfb3288aaa7be8.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/carousel.self-35d204878d906298e55bc24553e11fd89b980fc4ffe5792fe36af8c0da289c54.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/dropdown.self-e56c2ffee4618411d43ecf15c89273f6223847ad756e1cd17545d04afa732ed4.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/modal.self-62463080dba6b9d024ff0a3192da0e76eacbc683194f3395047c6f5cfa0acb59.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/collapse.self-056c40532d9f0f126ec17e839f60c942f573fbd61a086e7f156306e3fc5e8c1f.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/scrollspy.self-52afd90e8ba97d9f08617a13986e8869d6c4a45751c0bff59a6f91241e722aca.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/tab.self-dad0d5c377f9fae26394484535ebb23ccf68afae084f896af6ea4cdf8c9f6ae0.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/transition.self-3b268d4cd8c79e46ded7392885f72f64ffb5b0d49948a12b8cf9779f6163e13a.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/burrow.self-1a8c3198344f838bbd0be11b8e26ced70a91f5b3ad2ae4205f54d29b0d300a8d.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/bootstrap/tooltip.self-facdc69246a072acb927ded77ff655f7c27a518b9357fddd45d119fbc8a0ab9f.js?body=1" for 127.0.0.1 at 2016-02-28 18:00:43 -0500
+
+
+Started GET "/assets/b
