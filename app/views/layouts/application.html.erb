@@ -2,9 +2,12 @@
 <html>
 <head>
   <title>WeasleyClock</title>
-  <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=<%= ENV['google_api_key'] %>"></script>
-  <%= stylesheet_link_tag    'application', media: 'all' %>
-  <%= javascript_include_tag 'application' %>
+  
+  <script async defer
+    			src="https://maps.googleapis.com/maps/api/js?key=<%= ENV['google_api_key'] %>&amp;signed_in=true&amp;callback=initMap">
+  </script>
+  <%= stylesheet_link_tag 'application', media: 'all' %>
+	<%= javascript_include_tag 'application' %> 
   <%= csrf_meta_tags %>
 </head>
 <body>
@@ -12,6 +15,8 @@
 <div class='container'>
 	<%= yield %>
 </div>
+
+
 
 </body>
 </html>
