@@ -14,7 +14,3 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require_tree .
-
-$('[data-action=cheat]').click(function() {
-		$.getJson('/geocode/', {query: $('address').val()}, map.cheat)
-});
