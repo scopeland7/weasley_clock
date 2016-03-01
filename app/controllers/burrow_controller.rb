@@ -1,5 +1,6 @@
 class BurrowController < ApplicationController
   def index
+  	@position = ''
   end
 
   def members

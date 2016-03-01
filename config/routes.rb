@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   root 'burrow#index'
 
+  post '/' => 'burrow#index'
+
   get 'members' => 'burrow#members'
 
   get 'places' => 'burrow#places'

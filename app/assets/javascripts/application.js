@@ -15,6 +15,9 @@
 //= require bootstrap-sprockets
 //= require_tree .
 
+
+var userPosition = ''
+
 function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     center: {lat: -34.397, lng: 150.644},
@@ -29,6 +32,8 @@ function initMap() {
         lat: position.coords.latitude,
         lng: position.coords.longitude
       };
+      userPosition += pos.lat;
+      userPosition += pos.lng;
       infoWindow.setPosition(pos);
       infoWindow.setContent('Location found.');
       map.setCenter(pos);
@@ -41,9 +46,11 @@ function initMap() {
   }
 }
 
+
 function handleLocationError(browserHasGeolocation, infoWindow, pos) {
   infoWindow.setPosition(pos);
   infoWindow.setContent(browserHasGeolocation ?
                         'Error: The Geolocation service failed.' :
                         'Error: Your browser doesn\'t support geolocation.');
 }
+
