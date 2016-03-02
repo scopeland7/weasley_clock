@@ -1,11 +1,15 @@
 Rails.application.routes.draw do
+  devise_for :users
   root 'burrow#index'
+
+  post '/' => 'burrow#index'
 
   get 'members' => 'burrow#members'
 
   get 'places' => 'burrow#places'
 
   get 'time' => 'burrow#time'
+
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

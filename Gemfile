@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+#User registration system
+gem 'devise'
+
 #Allows use of binary files in geocoding
 gem 'geoip'
 
