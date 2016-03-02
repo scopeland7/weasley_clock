@@ -12,8 +12,13 @@
 
 <p id='demo'></p>
 
-
-
+<ul>
+	<% @locations.each do |location| %>
+		<li><%= location.latitude %></li>
+		<li><%= location.longitude %></li>
+		<li><%= location.user_id %></li>
+	<% end %>
+</ul>
 
 
 </body>

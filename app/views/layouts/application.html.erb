@@ -27,6 +27,7 @@ function showPosition(position) {
     // "<br>Longitude: " + position.coords.longitude + position.coords.accuracy; 
     var lat = position.coords.latitude;
     var lon = position.coords.longitude;
+    console.log(lat, lon)
     submitData(lat, lon);
 }
 
@@ -37,7 +38,7 @@ function submitData(lat, lon) {
     url: "/",
     data: {
         latitude: lat,
-        longitude: lon
+        longitude: lon 
     },
   })
 }

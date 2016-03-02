@@ -14,37 +14,3 @@
 //= require jquery_ujs
 //= require bootstrap-sprockets
 //= require_tree .
-
-
-<script>
-
-function getLocation() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-    } else { 
-        // x.innerHTML = "Geolocation is not supported by this browser.";
-    }
-}
-
-
-function showPosition(position) {
-    // x.innerHTML = "Latitude: " + position.coords.latitude + 
-    // "<br>Longitude: " + position.coords.longitude + position.coords.accuracy; 
-    var lat = position.coords.latitude;
-    var lon = position.coords.longitude;
-    submitData(lat, lon);
-}
-
-
-function submitData(lat, lon) {
-  $.ajax({
-    type:"POST",
-    url: "/",
-    data: {
-        latitude: lat,
-        longitude: lon
-    },
-  })
-}
-
-</script>
