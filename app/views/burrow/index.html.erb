@@ -1,51 +1,16 @@
-<h1>Burrow#index</h1>
 <!DOCTYPE html>
 <html>
 <body>
+<h1>Burrow#index</h1>
 
 <p>Click the button to get your coordinates.</p>
 
 
 <button onclick="getLocation()">Update your location, PLEASE</button>
 
-<div id ='demo'>
 
-</div>
+<p id='demo'></p>
 
-<script>
-
-var x = document.getElementById("demo");
-
-function getLocation() {
-    if (navigator.geolocation) {
-        navigator.geolocation.getCurrentPosition(showPosition);
-    } else { 
-        x.innerHTML = "Geolocation is not supported by this browser.";
-    }
-}
-
-
-function showPosition(position) {
-    y = [position.coords.latitude, position.coords.longitude];
-}
-
-function showPosition(position) {
-    x.innerHTML = "Latitude: " + position.coords.latitude + 
-    "<br>Longitude: " + position.coords.longitude + position.coords.accuracy;	
-}
-
-
-function submitData(lat, lon) {
-	$.ajax({
-		type:"POST",
-		url: "/",
-		data: {
-			latitude: lat,
-			longitude: lon
-		},
-	})
-}
-</script>
 
 </body>
 </html>
