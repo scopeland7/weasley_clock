@@ -10,5 +10,5 @@ User.create(email:"linkherox@gmail.com", password: "password")
 
 
 5.times do |i|
-	Location.create(place_name: "Location #{i}", latitude: 34.33, longitude: 81.33)
+	Location.create(place_name: "Location #{i}", latitude: 34.33, longitude: -81.33)
 end

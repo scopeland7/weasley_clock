@@ -12,6 +12,11 @@ class BurrowController < ApplicationController
 
       distances = []
 
+      puts "****************"
+      puts @location.longitude
+      puts Location.first.longitude
+      puts "****************"
+
       if @location.latitude != nil
         @locations.each do |location|
           if dist_btw_coords(@location.latitude, @location.longitude, location.latitude, location.longitude) <= 0.5
@@ -19,30 +24,27 @@ class BurrowController < ApplicationController
           end
           distances.sort!
         end
+        puts "*******************"
+        puts distances
+        puts "********************"
       end
 
-      closest_location = distances.first
+      if distances.count > 0 
+        closest_location = distances.first
 
-      location_id = closest_location.id
+        location_id = closest_location.id
 
-      current_loc = Location.find(location_id)
+        current_loc = Location.find(location_id)
 
-      id_num = current_user.id
-      
-      current_loc.user_id = current_user.id
+        id_num = current_user.id
+        
+        current_loc.user_id = current_user.id
 
-      current_user.location_id = current_loc.id
+        current_user.location_id = current_loc.id
 
-      current_loc.save
-      current_user.save
-
-      puts "*************************"
-      puts @location.user_id
-      puts location_id
-      puts current_loc
-      puts current_loc.id
-      puts current_user.location_id
-      puts "************************"
+        current_loc.save
+        current_user.save
+      end
 
       # if @location.save
       #   puts "*********************"
