@@ -1,13 +1,29 @@
 class BurrowController < ApplicationController
 
-  require 'burrow_helper'
-  
+  include BurrowHelper
+
   def index
+      
+      @locations = Location.all
+
       @location = Location.new(location_params)
 
       @location.user_id = current_user.id
 
-      location_id = rand(1..5)
+      distances = []
+
+      if @location.latitude != nil
+        @locations.each do |location|
+          if dist_btw_coords(@location.latitude, @location.longitude, location.latitude, location.longitude) <= 0.5
+            distances.push location
+          end
+          distances.sort!
+        end
+      end
+
+      closest_location = distances.first
+
+      location_id = closest_location.id
 
       current_loc = Location.find(location_id)
 
@@ -47,7 +63,6 @@ class BurrowController < ApplicationController
 
     @location.destroy!
 
-    @locations = Location.all
 
   end
 
