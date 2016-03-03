@@ -14,9 +14,14 @@
 
 <ul>
 	<% @locations.each do |location| %>
-		<li><%= location.latitude %></li>
-		<li><%= location.longitude %></li>
-		<li><%= location.user_id %></li>
+		<div class='well'>
+			<li><%= location.place_name %></li>
+			<li><%= location.latitude %></li>
+			<li><%= location.longitude %></li>
+			<% location.users.each do |user| %>
+				<li><%= user.email %> is at this location</li>
+			<% end %>
+		</div>
 	<% end %>
 </ul>
 

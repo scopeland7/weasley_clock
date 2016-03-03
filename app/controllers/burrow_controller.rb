@@ -1,6 +1,5 @@
 class BurrowController < ApplicationController
   def index
-    if current_user.location_id != nil	
       @location = Location.new(location_params)
 
       @location.user_id = current_user.id
@@ -9,20 +8,20 @@ class BurrowController < ApplicationController
         puts "*********************"
         puts @location
         puts "*********************"
+        puts @location.user_id
+        puts "**********************"
         latitude = @location.latitude
         puts "****************"
         puts latitude
         puts "************"
-        if latitude < 34.0
-          x = Location.find(3)
-        end
-        current_user.location_id = x.id
+        # if latitude < 34.0
+        #   x = Location.find(3)
+        # end
+        # current_user.location_id = x.id
         current_user.save
-        @location.destroy!
-      else
-        render json: {status: 'failure'}
       end
-    end
+
+    @location.destroy!
 
     @locations = Location.all
 
