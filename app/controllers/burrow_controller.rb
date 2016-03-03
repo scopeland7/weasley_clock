@@ -1,4 +1,7 @@
 class BurrowController < ApplicationController
+
+  require 'burrow_helper'
+  
   def index
       @location = Location.new(location_params)
 
