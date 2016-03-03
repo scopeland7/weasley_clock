@@ -6,9 +6,9 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-User.create(email:"linkherox@gmail.com", password: "password")
+User.create(email:"linkherox@gmail.com", password: "password", location_id: 1)
 
 
-5.times do |i|
-	Location.create(place_name: "Location #{i}", latitude: 34.33, longitude: -81.33)
-end
+Location.create(place_name: "Home", latitude: 33.56, longitude: -84.5, user_id: 1)
+
+Location.create(place_name: "Strongbox West", latitude: 33.78457, longitude: -84.42126)

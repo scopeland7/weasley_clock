@@ -13,12 +13,14 @@ class BurrowController < ApplicationController
       distances = []
 
       puts "****************"
+      puts @location.latitude
       puts @location.longitude
       puts Location.first.longitude
       puts "****************"
 
       if @location.latitude != nil
         @locations.each do |location|
+          puts dist_btw_coords(@location.latitude, @location.longitude, location.latitude, location.longitude) 
           if dist_btw_coords(@location.latitude, @location.longitude, location.latitude, location.longitude) <= 0.5
             distances.push location
           end
