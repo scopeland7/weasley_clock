@@ -16,5 +16,10 @@
 <p><%= link_to "See where all users are currently", members_path %></p>
 <p><%= link_to "Users' last check-in times", time_path %></p>
 
+<% utm = GeoUtm::LatLon.new(34.0, -83.0).to_utm %>
+<p><%= utm %></p>
+
+<p><%= dist_btw_coords(34.0, -83.0, 34.0, -83.005) %></p>
+
 </body>
 </html>

@@ -37,6 +37,8 @@ gem 'geocoder'
 #Keep API key secret secrets
 gem 'figaro'
 
+gem 'geoutm'
+
 # Turbolinks isn't here because fuck Turbolinks
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
