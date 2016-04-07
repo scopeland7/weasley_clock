@@ -27,6 +27,11 @@
     <%= f.password_field :current_password, autocomplete: "off" %>
   </div>
 
+  <div class='field'>
+    <%= f.label :current_location %><br />
+    <%= f.text_field :current_location, autocomplete: "off" %>
+  </div>
+
   <div class="actions">
     <%= f.submit "Update" %>
   </div>

@@ -2,5 +2,12 @@
 <h1>Burrow#members</h1>
 
 <% @users.each do |user| %>
-	<h3> <%= user.email %> is currently at <%= user.location.place_name %> as of <%= user.updated_at %></h>
+	<div class='well'>	
+		<% if user.location_id != nil %>
+			<h3> <%= user.email %> is currently at <%= user.location.place_name %> as of <%= user.updated_at %></h3><br />
+		<% else %>
+			<h3> <%= user.email %> is currently at <%= user.current_location %> as of <%= user.updated_at %> </h3>
+			<h4>This user is not currently at a saved location.</h4>
+		<% end %>
+	</div>
 <% end %>

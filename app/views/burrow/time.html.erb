@@ -2,5 +2,7 @@
 <h1>Burrow#time</h1>
 
 <% @users.each do |user| %>
-	<h3><%= user.email %> last updated their location at <%= user.updated_at %></h3>
+	<div class='well'>
+		<h3><%= user.email %> last updated their location at <%= user.updated_at %></h3>
+	</div>
 <% end %>
